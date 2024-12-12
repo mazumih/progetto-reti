@@ -1,0 +1,37 @@
+Routing Tables:
+Node A:
+  A: 0 via A
+  C: 4 via C
+  B: 2 via B
+  E: 3 via B
+  D: 7 via B
+
+Node B:
+  B: 0 via B
+  A: 2 via A
+  C: 6 via A
+  E: 1 via E
+  D: 5 via E
+
+Node C:
+  C: 0 via C
+  B: 6 via A
+  A: 4 via A
+  E: 7 via A
+  D: 11 via A
+
+Node D:
+  D: 0 via D
+  E: 4 via E
+  B: 5 via E
+  A: 7 via E
+  C: 11 via E
+
+Node E:
+  E: 0 via E
+  B: 1 via B
+  D: 4 via D
+  A: 3 via B
+  C: 7 via B
+
+Convergence after 3 iterations
